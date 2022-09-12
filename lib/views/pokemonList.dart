@@ -54,13 +54,18 @@ class _PokemonListState extends State<PokemonList> {
                           mainAxisAlignment: MainAxisAlignment.spaceAround,
                           children: [
                             Lottie.asset(width: 250, height: 250, fit: BoxFit.cover, 'assets/empty-list.json'),
-                            ElevatedButton(
-                                onPressed: () {
-                                  setState(() {
-                                    showFavoritePokemons = !showFavoritePokemons;
-                                  });
-                                },
-                                child: const Text("Add your favorite pokemons"))
+                            Column(
+                              children: [
+                                ElevatedButton(
+                                    onPressed: () {
+                                      setState(() {
+                                        showFavoritePokemons = !showFavoritePokemons;
+                                      });
+                                    },
+                                    child: const Text("Add your favorite pokemons")),
+                                const Text("list is empty"),
+                              ],
+                            ),
                           ],
                         ),
                       )
