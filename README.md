@@ -1,4 +1,4 @@
-# pokedex_app
+# mini pokedex
 
 Flutter ile mini pokedex uygulaması.
 
