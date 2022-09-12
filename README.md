@@ -1,16 +1,26 @@
 # pokedex_app
 
-A new Flutter project.
+Flutter ile mini pokedex uygulaması.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Kullandığım paketler
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- flutter_bloc
+- shared_preferences
+- dio
+- lottie
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## API
+
+- PokéAPI(https://pokeapi.co/)
+
+## Ekran görüntüleri
+
+
+
+<a href="url"><img src="https://i.hizliresim.com/p8d6395.jpg" align="left" width="250" height="400" ></a>
+<a href="url"><img src="https://i.hizliresim.com/6b79ff4.jpg" align="left" width="250" height="400" ></a>
+<a href="url"><img src="https://i.hizliresim.com/9ey9zm3.jpg" align="left" width="250" height="400" ></a>
+<a href="url"><img src="https://i.hizliresim.com/d09k5nl.jpg" align="left" width="250" height="400" ></a>
+<a href="url"><img src="https://i.hizliresim.com/ivlarq6.jpg" align="left" width="250" height="400" ></a>
